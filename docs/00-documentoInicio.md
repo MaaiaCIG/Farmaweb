@@ -8,27 +8,28 @@
 
 | | |
 |---|---|
-| **Nombre** (real o alias, como prefieras) | |
-| **Usuario de GitHub** | |
+| **Maaia Carbajal Isla** | |
+| **MaaiaCIG** | |
 | **Repositorio del proyecto** | *enlace* |
-| **Ciclo y curso** | DAW, 2.º · curso 2026-27 |
-| **Fecha** | AAAA-MM-DD |
+| **DAW 2º Curso 2926-2027** |
+| **19/11/2026** |
 
 ## 2. Nombre del proyecto
 
-*Nombre provisional (puede cambiar). Una frase de qué es.*
+*FarmaWeb / Mediweb*
 
 ## 3. Qué quiero hacer
 
-*Descríbelo con tus palabras, en 5 a 10 líneas: qué es, qué hace y cómo se usaría.*
+*Una web que funcione en móvil también (no aplicación) que te muestre de manera visual los medicamentos que tomas y cuales eran sus anteriores versiones.
+Así la gente que tiene miles de cajas en casa y ha perdido el papel puede buscarlo mediante fotos y saber qué es y para qué sirve. Hay que poner avisos de que pasado x tiempo quizá no funciona y no es la mejor idea tomarlo. Lugares donde puedes tirar los medicamentos viejos, ya que no deberían tirarse a la basura como tal.*
 
 ## 4. Qué problema o necesidad resuelve
 
-*¿Qué necesidad real del sector o de un colectivo cubre? ¿Cómo lo sabes (la has visto, hablaste con alguien, hay datos)? Anótalo, se desarrolla en `01-analisis.md`.*
+Mucha gente guarda en casa cajas de medicamentos antiguos sin el prospecto y no sabe qué son, para qué sirven, si siguen siendo seguros de tomar ni dónde tirarlos. Esta web permite reconocerlos de forma visual, saber para qué se usan y recibir avisos sobre el paso del tiempo y su correcto desecho (no deben tirarse a la basura normal).
 
 ## 5. Para quién
 
-*Quién lo usaría (personas usuarias o clientes) y en qué contexto (empresa, asociación, uso personal...).*
+Para cualquier público mayor de 16 años que quiera buscar información sobre los medicamentos de una manera más fácil y visual. Principalmente tiene un enfoque a los mayores de 70 años, los cuales no suelen entender los tecnicismos.
 
 ## 6. Funcionalidades principales
 
@@ -36,7 +37,12 @@
 
 | # | Funcionalidad | ¿Imprescindible? (sí / no) |
 |---|---|---|
-| 1 | | |
+| 1 | Navegación visual por utilidad en forma de árbol (dolor de cabeza, resfriado, gastritis, agujetas...) | sí |
+| 2 | Ficha de cada medicamento: foto de la caja, para qué sirve y aviso de que pasado cierto tiempo puede no ser eficaz ni seguro | sí |
+| 3 | Buscador por nombre que muestra el resultado con su imagen | sí |
+| 4 | Sección con información sobre dónde desechar los medicamentos viejos | sí |
+| 5 | Sección con los prospectos en PDF | no |
+| 6 | Imágenes de versiones anteriores de cada medicamento | no |
 
 ## 7. Tecnologías previstas
 
@@ -44,29 +50,38 @@
 
 | Tecnología | Para qué | Nivel actual (nada / algo / bien) |
 |---|---|---|
-| | | |
+| HTML y CSS | Estructura y diseño sencillo, accesible y adaptable a móvil | |
+| JavaScript | Árbol de categorías y buscador | |
+| PHP | Lógica del servidor y consultas | |
+| MySQL | Guardar medicamentos, categorías e imágenes | |
+| Apache | Servidor web para el despliegue | |
+| Figma | Prototipo del diseño antes de programar | |
 
 ## 8. Dónde se integra con los módulos de 2.º
 
 *Marca los módulos de 2.º cuyos contenidos usarás de forma real en el proyecto (debe haber **al menos tres**).*
 
-- [ ] Desarrollo web en entorno cliente (0612)
-- [ ] Desarrollo web en entorno servidor (0613)
-- [ ] Despliegue de aplicaciones web (0614)
-- [ ] Diseño de interfaces web (0615)
+- [x] Desarrollo web en entorno cliente (0612)
+- [x] Desarrollo web en entorno servidor (0613)
+- [x] Despliegue de aplicaciones web (0614)
+- [x] Diseño de interfaces web (0615)
 
 ## 9. Datos y empresas
 
-- ¿El proyecto parte de una **empresa** (por ejemplo, de tus prácticas)? **Sí / No**. Si es sí: ¿tienes su **autorización escrita** para usar información suya? **Sí / No / En trámite**. Se plantea como un encargo simulado.
-- ¿Usará **datos personales reales**? **Debe ser que no**: usa datos de ejemplo.
+- ¿El proyecto parte de una empresa? **No.**
+- ¿Usará datos personales reales? **No.** Se usarán datos públicos de medicamentos y no se guardarán las fotos ni los datos de quien use la web.
 
 ## 10. Riesgos y dudas iniciales
 
-*Lo que más te preocupa o no tienes claro (tiempo, tecnología, alcance...).*
+- **Alcance:** la búsqueda por foto es muy compleja, así que la primera versión usará búsqueda por nombre y navegación visual.
+- **Datos e imágenes:** dónde conseguir fotos y fichas fiables de los medicamentos y si se pueden usar (posible fuente: CIMA de la AEMPS).
+- **Salud:** que la web oriente sin sustituir al médico o al farmacéutico; hará falta un aviso visible.
+- **Categorías:** si los medicamentos se pueden dividir por utilidad de forma correcta y con términos fáciles de entender.
+- **Accesibilidad:** que sea realmente cómoda para personas mayores (letra grande, mucho contraste, pocos elementos).
 
 ## 11. Qué espero aprender
 
-*Una o dos frases.*
+A construir una web completa de principio a fin, desde el diseño hasta el despliegue, y a diseñar pensando en personas con poca experiencia digital.
 
 ---
 
