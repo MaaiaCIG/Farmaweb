@@ -50,12 +50,12 @@ Para cualquier público mayor de 16 años que quiera buscar información sobre l
 
 | Tecnología | Para qué | Nivel actual (nada / algo / bien) |
 |---|---|---|
-| HTML y CSS | Estructura y diseño sencillo, accesible y adaptable a móvil | |
-| JavaScript | Árbol de categorías y buscador | |
-| PHP | Lógica del servidor y consultas | |
-| MySQL | Guardar medicamentos, categorías e imágenes | |
-| Apache | Servidor web para el despliegue | |
-| Figma | Prototipo del diseño antes de programar | |
+| HTML y CSS | Estructura y diseño sencillo, accesible y adaptable a móvil | BIEN |
+| JavaScript | Árbol de categorías y buscador | BIEN |
+| PHP | Lógica del servidor y consultas | ALGO |
+| MySQL | Guardar medicamentos, categorías e imágenes | BIEN |
+| Apache | Servidor web para el despliegue | ALGO |
+| Figma | Prototipo del diseño antes de programar | ALGO |
 
 ## 8. Dónde se integra con los módulos de 2.º
 
