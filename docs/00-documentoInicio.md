@@ -10,7 +10,7 @@
 |---|---|
 | **Maaia Carbajal Isla** | |
 | **MaaiaCIG** | |
-| **Repositorio del proyecto** | *enlace* |
+| **https://github.com/MaaiaCIG/Farmaweb/tree/main** | 
 | **DAW 2º Curso 2926-2027** |
 | **19/11/2026** |
 
